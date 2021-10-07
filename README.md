@@ -1,7 +1,9 @@
-### Random List Generator
+### Spring Random List Generator - using http client
 - users
 - cars
-- endpoint: http://localhost:8080/
+- random fact about dogs with photos 
+
+endpoint: http://localhost:8080/
 
 #### Zadanie 1 (rozgrzewka :fire: :smile: )
 
