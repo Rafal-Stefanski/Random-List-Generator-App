@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random dog fact and image</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+<p style="margin-top: 40px; margin-left:auto; margin-right: auto ; width: 30%" th:text="${dogFactImg.getInfo.substring(1, dogFactImg.getInfo().length() - 1)}">A fact about dog.</p>
+<p style="text-align:center"><img th:style="center" th:width="400px" th:src="${dogFactImg.getSrc()}" alt="dog pic" src=""/></p>
+
+<p style="text-align: center;">
+    <a href="/dog-gui/"><button type="button" class="btn btn-outline-dark">Refresh</button></a>&nbsp;
+    <a href="/"><button type="button" class="btn btn-outline-primary">Back to home page</button></a>
+</p>
+
+</body>
+</html>
