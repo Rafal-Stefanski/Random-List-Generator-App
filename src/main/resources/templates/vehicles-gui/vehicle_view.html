@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Vehicles List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <h2 style="text-align: center">Random Cars List</h2>
+
+    <table class="table table-striped" style="margin-left:auto; margin-right: auto; width: 75%; text-align: left">
+        <thead>
+        <tr>
+            <th scope="col">Make and Model</th>
+            <th scope="col">Car type</th>
+            <th scope="col">Color</th>
+            <th scope="col">Kilometre(age)</th>
+            <th scope="col">Fuel Type</th>
+            <th scope="col">Drive Type</th>
+            <th scope="col">Transmission</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="car: ${vehicles}" style="vertical-align: middle">
+            <td th:text="${car.getMakeAndModel()}"></td>
+            <td th:text="${car.getCarType()}"></td>
+            <td th:text="${car.getColor()}"></td>
+            <td th:text="${car.getKilometrage()}"></td>
+            <td th:text="${car.getFuelType()}"></td>
+            <td th:text="${car.getDriveType()}"></td>
+            <td th:text="${car.getTransmission()}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <p style="text-align: center;">
+        <a href="/vehicles-gui/"><button type="button" class="btn btn-outline-dark">Refresh</button></a>&nbsp;
+        <a href="/"><button type="button" class="btn btn-outline-primary">Back to home page</button></a>
+    </p>
+</body>
+</html>
