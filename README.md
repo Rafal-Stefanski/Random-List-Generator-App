@@ -11,3 +11,11 @@ endpoint: http://localhost:8080/
        https://github.com/public-apis/public-apis
 Następnie skomunikuj się z usługą poprzez wykorzystanie klasy RestTemplate.
 Z wykorzystaniem swojego ulubionego narzędzia do tworzenia GUI wyświetl wszystkie dane we formie tabelarycznej.
+
+***
+
+![screen shot](https://github.com/Rafal-Stefanski/Spring-Random-List-Generator/blob/master/src/main/resources/static/screen_shot_03.png)
+
+![screen shot](https://github.com/Rafal-Stefanski/Spring-Random-List-Generator/blob/master/src/main/resources/static/screen_shot_02.png)
+
+![screen shot](https://github.com/Rafal-Stefanski/Spring-Random-List-Generator/blob/master/src/main/resources/static/screen_shot_01.png)
