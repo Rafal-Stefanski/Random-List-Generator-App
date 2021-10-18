@@ -1,6 +1,6 @@
-package com.rafalstefanski.randomlistgenerator.user.controller;
+package com.rafalstefanski.randomlistgenerator.controller.user;
 
-import com.rafalstefanski.randomlistgenerator.user.model.User;
+import com.rafalstefanski.randomlistgenerator.model.user.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

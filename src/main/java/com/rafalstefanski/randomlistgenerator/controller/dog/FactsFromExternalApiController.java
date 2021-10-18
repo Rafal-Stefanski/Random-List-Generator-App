@@ -1,7 +1,7 @@
-package com.rafalstefanski.randomlistgenerator.dog.controller;
+package com.rafalstefanski.randomlistgenerator.controller.dog;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.rafalstefanski.randomlistgenerator.dog.model.DogFact;
+import com.rafalstefanski.randomlistgenerator.model.dog.DogFact;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

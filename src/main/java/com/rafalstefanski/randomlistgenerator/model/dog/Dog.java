@@ -1,4 +1,4 @@
-package com.rafalstefanski.randomlistgenerator.dog.model;
+package com.rafalstefanski.randomlistgenerator.model.dog;
 
 public class Dog {
 

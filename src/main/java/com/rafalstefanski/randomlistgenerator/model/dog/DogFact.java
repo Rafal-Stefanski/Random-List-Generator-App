@@ -1,4 +1,4 @@
-package com.rafalstefanski.randomlistgenerator.dog.model;
+package com.rafalstefanski.randomlistgenerator.model.dog;
 
 import com.fasterxml.jackson.annotation.*;
 

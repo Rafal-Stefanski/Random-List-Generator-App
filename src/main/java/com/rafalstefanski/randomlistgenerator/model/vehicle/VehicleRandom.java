@@ -1,5 +1,5 @@
 
-package com.rafalstefanski.randomlistgenerator.vehicle.model;
+package com.rafalstefanski.randomlistgenerator.model.vehicle;
 
 import com.fasterxml.jackson.annotation.*;
 

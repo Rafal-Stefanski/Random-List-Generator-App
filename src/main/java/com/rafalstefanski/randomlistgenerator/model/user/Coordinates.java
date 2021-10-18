@@ -1,5 +1,5 @@
 
-package com.rafalstefanski.randomlistgenerator.user.model;
+package com.rafalstefanski.randomlistgenerator.model.user;
 
 import com.fasterxml.jackson.annotation.*;
 

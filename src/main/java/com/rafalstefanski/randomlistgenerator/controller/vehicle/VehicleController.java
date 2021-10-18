@@ -1,6 +1,6 @@
-package com.rafalstefanski.randomlistgenerator.vehicle.controller;
+package com.rafalstefanski.randomlistgenerator.controller.vehicle;
 
-import com.rafalstefanski.randomlistgenerator.vehicle.model.VehicleRandom;
+import com.rafalstefanski.randomlistgenerator.model.vehicle.VehicleRandom;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

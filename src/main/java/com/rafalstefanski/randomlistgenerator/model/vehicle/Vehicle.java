@@ -1,4 +1,4 @@
-package com.rafalstefanski.randomlistgenerator.vehicle.model;
+package com.rafalstefanski.randomlistgenerator.model.vehicle;
 
 public class Vehicle {
     private String mark;
