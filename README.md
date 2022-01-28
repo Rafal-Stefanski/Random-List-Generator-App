@@ -1,4 +1,7 @@
 ### Spring Random List Generator - using http client
+<img align="right" src="https://badges.pufler.dev/visits/Rafal-Stefanski/Spring-Random-List-Generator">
+Generats lists of:
+
 - users :robot:
 - cars :car:
 - random fact about dogs with photos 🐕
